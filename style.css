@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+
+*{
+      padding: 0;
+      margin: 0;
+      background-color: #202225;
+      /* color: #00c364; */
+      color: #00c364;
+      scroll-behavior: smooth;
+}
+
+/* .favicon{
+      border-radius: 20px;
+} */
+
+.navbar{
+      margin-top: 2%;
+      overflow: hidden;
+      /* height: 10%; */
+      position: sticky;
+}
+
+.navbar a{
+      text-decoration: none;
+      font-family: Hubballi;
+      font-size: 30px;
+      padding: 14px 16px;
+
+
+      -o-transition:.5s;
+      -ms-transition:.5s;
+      -moz-transition: .5s;
+      -webkit-transition: .5s;
+      transition: .5s;
+}
+
+.navbar a:hover{
+      text-decoration: none;
+      color: white;
+}
+
+.sidebarGo{
+      transform: translate(-550, -1px);
+  }
+
+  .hamburger{
+      position: absolute;
+      cursor: pointer;
+      top: 10px;
+      left: 10px ;
+  }
+
+.content{
+      padding: 16px;
+}
+
+.sticky{
+      position: sticky;
+      top: 10px;
+      width: 100%;
+}
+
+/* .sticky + .content{
+      padding-top: 60px;
+} */
+
+.main-heading{
+      
+      text-align: center;
+      font-family: 'Cairo', sans-serif;
+      
+}
+
+.main-heading h1{
+      font-size: 100px;
+      text-align: center;
+      font-family: 'Cairo', sans-serif;
+      
+}
+
+.main-heading img{
+      border-radius: 30%;
+}
+
+.info{
+      font-family: 'Hubballi', cursive;
+      font-size: 30px;
+      margin-top: 100px;
+      margin: 20px;
+      justify-content: center;
+      align-items: center;
+}
+
+.info2{
+      margin-top: 100px;
+}
+
+.text-above-members{
+      font-family: 'Cairo';
+      margin-top: 100px;
+      text-align: center;
+}
+
+.members{
+      font-family: 'Cairo';
+      margin-top: 25px;
+      font-size: 20px;
+      text-align: center;
+      justify-content: right;
+}
+
+.members h2{
+      margin-top: 10px;
+      text-align: center;
+}
+
+.ham{
+      display: none;
+}
+
+.cross{
+      display: none;
+}
+
+.eventinfo{
+      margin-top: 50px;
+      font-family: 'Cairo', cursive;
+      border: #00c364;
+      text-align: center;
+      font-size: 25px;
+      -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+      -moz-animation: fadein 2s; /* Firefox < 16 */
+      -ms-animation: fadein 2s; /* Internet Explorer */
+      -o-animation: fadein 2s; /* Opera < 12.1 */
+      animation: fadein 2s;
+}
+
+.events{
+      margin-top: 50px;
+      text-align: center;
+      font-family: Cairo;
+}
+
+.events p{
+      font-size: 25px;
+}
+
+.alumni{
+      text-align: center;
+      margin-top: 50px;
+      font-family: Cairo;
+}
+
+.footer{
+      margin-top: 100px;
+      font-family: Hubballi;
+      font-size: 25px;
+      text-align: center;
+}
+@media only screen and (max-width: 552px){
+      .navbar{
+            display: none;
+            transition: ease-in;
+            /* justify-content: left; */
+      }
+
+      .responsive{
+            width: 50%;
+            display: list-item;
+            text-align: center;
+            font-size: small;
+            line-height: 65px;
+      }
+
+      .ham{
+            display: block;
+            margin-left: 10px;
+            margin-top: 50px;
+      }
+
+      .cross{
+            display: none;
+            margin-left: 10px;
+            margin-top: 50px;
+          
+            transition: ease-in;
+      }
+      
+}
+
+@media only screen and (max-width: 440px){
+      
+      .ham{
+            margin-top: 0px;
+            width: 1px;
+      }
+
+      .responsive{
+            width: 25%;
+            display: list-item;
+            text-align: center;
+            font-size: small;
+            line-height: 65px;
+      }
+      
+}
+
