@@ -146,6 +146,10 @@
       font-size: 25px;
 }
 
+.names{
+      margin-top: 25px;
+}
+
 .alumni{
       text-align: center;
       margin-top: 50px;
@@ -166,11 +170,11 @@
       }
 
       .responsive{
-            width: 50%;
-            display: list-item;
+
             text-align: center;
             font-size: small;
-            line-height: 65px;
+            width: auto;
+            
       }
 
       .ham{
